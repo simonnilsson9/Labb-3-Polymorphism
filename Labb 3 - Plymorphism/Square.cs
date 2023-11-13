@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Labb_3___Plymorphism
+namespace Labb_3___Polymorphism
 {
     public class Square : Geometry
     {
@@ -15,7 +15,7 @@ namespace Labb_3___Plymorphism
         }
         public override double Area()
         {
-            return SideLength * SideLength;
+            return Math.Round(SideLength * SideLength,1);
         }
         public override string ToString()
         {

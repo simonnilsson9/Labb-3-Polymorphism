@@ -1,4 +1,4 @@
-﻿namespace Labb_3___Plymorphism
+﻿namespace Labb_3___Polymorphism
 {
     internal class Program
     {
@@ -14,7 +14,7 @@
                 Console.WriteLine($"Area {item}: {item.Area()}");
             }
 
-            
+           
         }
     }
 }

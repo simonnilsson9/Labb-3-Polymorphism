@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Labb_3___Plymorphism
+namespace Labb_3___Polymorphism
 {
     public class Rectangle : Geometry
     {
@@ -17,7 +17,7 @@ namespace Labb_3___Plymorphism
         }       
         public override double Area()
         {            
-            return Length*Width;            
+            return Math.Round(Length*Width,1);            
         }
         public override string ToString()
         {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Labb_3___Plymorphism
+namespace Labb_3___Polymorphism
 {
     public class Circle : Geometry
     {
@@ -16,7 +16,7 @@ namespace Labb_3___Plymorphism
 
         public override double Area()
         {
-            return Radius * Radius * Math.PI;
+            return Math.Round(Radius * Radius * Math.PI,1);
         }
         public override string ToString()
         {

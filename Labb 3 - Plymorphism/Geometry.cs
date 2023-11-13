@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Labb_3___Plymorphism
+namespace Labb_3___Polymorphism
 {
     public class Geometry
     {
